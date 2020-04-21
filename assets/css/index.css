@@ -5,6 +5,7 @@
   justify-content: space-between;
 }
 .center{
+  width: 400px;
   display: flex;
   justify-content: center;
   justify-content: space-around;
