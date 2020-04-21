@@ -1,3 +1,14 @@
+
+.nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
 .flex_item {
   padding:10px;
   margin: 10px;
@@ -9,12 +20,28 @@
   margin: 10px;
   /* Set the property display to flex below! */
 }
-#column {
+
+.meal {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
   background-color: #E6F5FF;
+  display: flex;
+  flex-direction: column;
+  
+  
   /* Set the property flex direction to column below! */
 }
-#row {
+.row {
   background-color: #FFF7DE;
 /* Set the property flex-direction to row below! */
+  flex-direction: row
 }
  
+footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
