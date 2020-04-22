@@ -7,13 +7,10 @@
 
 .nav{
   display: flex;
-  justify-content: center;
   justify-content: space-between;
 }
 .center{
-  width: 400px;
   display: flex;
-  justify-content: center;
   justify-content: space-around;
 }
 .flex_item {
@@ -30,14 +27,11 @@
 
 .meal {
   display: flex;
-  justify-content: center;
-  background-image: './images/steak.png'
+  justify-content: column;
 }
 
 .column {
-  background-color: #E6F5FF;
-  display: flex;
-  flex-direction: column;
+  background-color: black;
   
   
   /* Set the property flex direction to column below! */
@@ -51,4 +45,19 @@
 footer {
   display: flex;
   justify-content: space-around;
+}
+
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+  padding: 20px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  padding: 20px;
+  
 }
