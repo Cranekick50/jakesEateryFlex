@@ -1,4 +1,10 @@
 
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
 .nav{
   display: flex;
   justify-content: center;
@@ -25,6 +31,7 @@
 .meal {
   display: flex;
   justify-content: center;
+  background-image: './images/steak.png'
 }
 
 .column {
@@ -43,6 +50,5 @@
  
 footer {
   display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
