@@ -66,4 +66,5 @@ footer {
   position: bottom;
   background-color: lightgray;
   opacity: 0.5;
+  font-weight: bold;
 }
