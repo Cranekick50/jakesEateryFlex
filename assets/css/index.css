@@ -19,11 +19,11 @@
   background-color: orange;
   color: white;
 } */
-.flex {
+/* .flex {
   padding: 10px;
   margin: 10px;
   /* Set the property display to flex below! */
-}
+} */
 
 .meal {
   display: flex;
