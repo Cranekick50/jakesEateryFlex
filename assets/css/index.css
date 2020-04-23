@@ -25,10 +25,10 @@
   /* Set the property display to flex below! */
 } */
 
-.meal {
+/* .meal {
   display: flex;
   justify-content: column;
-}
+} */
 
 .column {
   background-color: black;
